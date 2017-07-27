@@ -315,9 +315,6 @@ char* vetor_to_instancia(double * vetor, char * instancia, int qtd_atributos_rot
 	if (vetor != NULL && qtd_atributos_rotulos > 0){
 		int i;
 		char valor_atributo[20];
-		// PENSAR NUMA FORMA MELHOR DE ALOCAR ESTE VETOR QUE É DINAMICO (varia de acordo com o tamanho dos numeros)
-		// FOI CONSIDERADO O TAMANHO MAXIMO (qtd de atributos doubles e virgulas)
-		// PARA EVITAR MALLOC TD HR PODERIA SOMENTE LIMPAR A INSTANCIA, ESTÁ CERTO???
 		instancia[0] = '\0';
 		
 		for (i = 0; i < qtd_atributos_rotulos-1; i++){
