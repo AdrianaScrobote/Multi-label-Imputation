@@ -1,4 +1,4 @@
-// TERMINARRRR
+// Adriana Scrobote
 
 #include <stdio.h>
 #include <stdlib.h>
