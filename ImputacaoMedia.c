@@ -1,4 +1,4 @@
-// Adriana Scrobote
+// Imputação pela Média
 
 #include <stdio.h>
 #include <stdlib.h>
